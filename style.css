@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin: 30px;
+}
+
+.container h1 {
+    padding-bottom: 10px;
+    font-family: 'Staatliches', cursive;
+}
+
+#tarefa {
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+#btn {
+    border-radius: 30px;
+    width: 70px;
+    padding: 2px;
+    font-size: 14px;
+    border-style: none;
+    background-color: teal;
+    font-family: 'Staatliches', cursive;
+}
+
+#lista{
+    list-style: none;
+}
+
+#lista li{
+    margin: 5px;
+}
+
+
