@@ -16,6 +16,7 @@
 .container h1 {
     padding-bottom: 10px;
     font-family: 'Staatliches', cursive;
+    color: #F2B84B;
 }
 
 #tarefa {
@@ -25,12 +26,13 @@
 }
 
 #btn {
+    cursor: pointer;
     border-radius: 30px;
     width: 70px;
     padding: 2px;
     font-size: 14px;
     border-style: none;
-    background-color: teal;
+    background-color:#0468BF;
     font-family: 'Staatliches', cursive;
 }
 
@@ -39,7 +41,18 @@
 }
 
 #lista li{
-    margin: 5px;
+    border: solid 2px white;
+    background-color: #F2B84B;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+.imagem img{
+    width: 300px;
+    position: fixed;
+    right: 5px;
+    bottom: 0
 }
 
 
