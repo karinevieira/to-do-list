@@ -46,6 +46,11 @@
     padding: 5px;
     width: 500px;
     margin: auto;
+    text-align: left;
+}
+
+.task-image{
+    width: 30px;
 }
 
 .imagem img{
