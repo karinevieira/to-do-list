@@ -11,6 +11,7 @@
 .container{
     text-align: center;
     margin: 30px;
+    cursor: pointer;
 }
 
 .container h1 {
