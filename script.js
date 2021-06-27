@@ -8,3 +8,4 @@ function adicionar(){
     lista.innerHTML += completar
     lista.innerHTML += deletar
 }
+
