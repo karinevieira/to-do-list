@@ -1,7 +1,8 @@
 let input = document.querySelector('#tarefa')
 let lista = document.querySelector('#lista')
-let completar = `<img src="complete.png" alt="complete" class="task-image" onclick="remover()">`
+let completar = `<img src="complete.png" alt="complete" class="task-image">`
 let deletar =  `<img src="delete.png" alt="delete" class="task-image">`
+
 
 function adicionar(){
     lista.style.display = 'block'
@@ -9,8 +10,11 @@ function adicionar(){
     lista.innerHTML += completar
     lista.innerHTML += deletar
 }
+let taskImage = document.querySelectorAll('.task-image')
 
-function remover(){
-    lista.style.display = 'none'
+for (let task of taskImage){
+    task.addEventListener('click', () => {
+        console.log('click')
+    })
 }
 
