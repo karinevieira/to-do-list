@@ -1,11 +1,12 @@
-
 $(function () {
-
     $('button').on('click', function(){
-        let value = $('#task').val()
-        console.log(value)
-    
-        $('ul').append(`<li>${value}</li>`)
+        let task = $('#task').val()
+        let complete = '<img src="assets/images/complete.png" id="complete">'
+
+        $('ul').append(`<div class="flex"><li>${task}</li>${complete}</div>`)
+        $('img').on('click', function(){
+            $(this).parent().fadeOut('fast')
+        })
     })
 });
 
